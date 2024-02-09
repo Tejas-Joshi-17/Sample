@@ -1,0 +1,39 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.container{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.field{
+    width: 100%;
+}
+
+.card{
+    text-align: center;
+    width: 55%;
+    margin: auto;
+}
+
+.button{
+    margin: 10px;
+}
+
+.link{
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+
+a{
+    color: blue;
+    /* text-decoration: none; */
+    font-family: 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}

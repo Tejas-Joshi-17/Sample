@@ -1,0 +1,15 @@
+<h2 mat-dialog-title>Conformation of Creation of Account</h2>
+<mat-dialog-content>
+  UserName :- {{User_Data.User_Name}}
+  <br>
+  Email :- {{User_Data.Email}}
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close (click)="New_Register()">Conform</button>
+  <button mat-button mat-dialog-close>Cancel</button>
+</mat-dialog-actions>
+{{User_Data.UserName | json}}
+{{User_Data.User_Name | json}}
+{{User_Data.Email | json}}
+{{User_Data.Password | json}}
+

@@ -1,0 +1,26 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.container{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.field{
+    width: 100%;
+}
+
+.card{
+    text-align: center;
+    width: 55%;
+    margin: auto;
+}
+
+.button{
+    margin: 10px;
+}

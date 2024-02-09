@@ -1,0 +1,32 @@
+<app-navbar></app-navbar>
+<div class="card">
+    <div class="container">
+        <h1 style="font-family: Comic Sans MS,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Welcome to Spreezy</h1>
+    </div>
+
+    <form (ngSubmit)="Do_Submit()" class="example-form field">
+
+        <mat-form-field class="example-full-width field" appearance="outline">
+          <mat-label>UserName</mat-label>
+          <input matInput type="text" name="Name"  (input)="Check_Submit()" [(ngModel)]="User_Data.Name" placeholder="Ex. Pizza" value="" required="">
+        </mat-form-field>
+
+
+        <mat-form-field class="example-full-width field" appearance="outline">
+            <mat-label>Password</mat-label>
+            <input matInput type="password" (input)="Check_Submit()" name="Password" [(ngModel)]="User_Data.Password" placeholder="Enter your email" value="" required>
+        </mat-form-field>
+
+        <div class="text-center">
+            <button routerLink="home" type="submit"   (click)="Do_Submit()" [disabled]="disable_submit" class="button" mat-raised-button color="warn">Sign In</button>
+            <button type="button" class="button"  (click)="Do_Reset()" [disabled]="disable_reset" mat-raised-button color="primary">Reset</button>
+            <!-- <button mat-button (click)="openDialog()">Launch dialog</button> -->
+        </div>
+  
+        Don't have Account,<a (click)="onClick()"> Click here to Create Account</a>
+  
+    </form>
+
+
+
+</div>
